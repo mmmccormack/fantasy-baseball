@@ -12,7 +12,7 @@ baseball.categoryList = ["<img src='./assets/empty.svg'>","Name", "Position", "A
 // object containing information for styling relevant to each team
 baseball.teamColours = {
 DET : {bgcolor : "rgba(12,35,64,0.5)", hrcolor : "rgb(250,70,22)", logo : "<img src=./assets/DET.SVG />"},
-MIL : {bgcolor : "rgba(255,197,47,0.5)", hrcolor : "rgb(18,40,75)", logo : "<img src=./assets/MIL.SVG />"},
+MIL : {bgcolor : "rgba(255,197,47,0.5)", hrcolor : "rgb(18,40,75)", logo : "<img src='./assets/MIL.SVG' />"},
 MIA : {bgcolor : "rgba(0,163,224,0.5)", hrcolor : "rgb(239,51,64)", logo : "<img src=./assets/MIA.SVG />"},
 LAA : {bgcolor : "rgba(186,0,33,0.5)", hrcolor : "rgb(0,50,99)", logo : "<img src=./assets/LAA.SVG />"},
 LAD : {bgcolor : "rgba(0,90,156,0.5)", hrcolor : "rgb(191,192,191)", logo : "<img src=./assets/LAD.SVG />"},
