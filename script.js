@@ -32,7 +32,7 @@ TEX : {bgcolor : "rgba(0,50,120,0.5)", hrcolor : "rgb(192,17,31)", logo : `<img 
 TB : {bgcolor : "rgba(143,188,230,0.5)", hrcolor : "rgb(9,44,92)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/TB.SVG" alt='Tampa Bay Rays logo' />`},
 STL : {bgcolor : "rgba(196,30,58, 0.5)", hrcolor : "rgb(12,35,64)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/STL.SVG" alt='St. Luois Cardinals logo' />`},
 SF : {bgcolor : "rgba(253,90,30,0.5)", hrcolor : "rgb(39,37,31)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/SF.SVG" alt='San Francisco Giants logo' />`},
-SD : {bgcolor : "rgba(47,36,29,0.6)", hrcolor : "rgb(255,196,37)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/SD.SVG" alt='San Diego Padres logo' />`},
+SD : {bgcolor : "rgba(47,36,29,0.6)", hrcolor : "rgb(255,196,37)", logo : `<img src="https://raw.githubusercontent.com/mmmccormack/fantasy-baseball/gh-pages/assets/SD.SVG" alt='San Diego Padres logo' />`},
 PIT : {bgcolor : "rgba(253,184,39,0.5)", hrcolor : "rgb(39,37,31)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/PIT.SVG" alt='Pittsburgh Pirates logo' />`},
 PHI : {bgcolor : "rgba(111,38,61,0.5)", hrcolor : "rgb(107,172,228)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/PHI.SVG" alt='Philadelphia Phillies logo' />`},
 OAK : {bgcolor : "rgba(0,56,49,0.5)", hrcolor : "rgb(239,178,30)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/OAK.SVG" alt='Oakland Athletics logo' />`},
