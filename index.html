@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add CSS sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- add Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&display=swap" rel="stylesheet"> 
+    <!-- add JQuery library -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <title>Fantasy Baseball Companion</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="information">
+            <div class="electricSign">
+                <h1>Fantasy Baseball Companion</h1>
+            </div>
+            <p>Pick a player from each dropdown list, compare their stats, and find out which one works better for your fantasy team! Players are organized in the lists by their average draft position (ADP).</p>
+            <p>Created at <a href="https://junocollege.com">Juno College</a> using the <a href="https://sportsdata.io/">sportsdata.io</a> MLB API.</p>
+        </section>
+
+        <section class="comparison">
+                <div class="selectContainer">
+                    <select name="playerList1" id="playerList1">
+                        <option value="0">Select a Player</option>
+                    </select>
+                    <h2>Loading...</h2>
+                    <select name="playerList2" id="playerList2">
+                        <option value="0">Select a Player</option>
+                    </select>
+                </div>
+                <div class="playerContainers">
+                    <div class="left container">
+                            <div class="leftPlayerInfo">
+                                <!-- player info is deposited here when user selects from dropdown -->
+                            </div>
+                    </div>
+
+                    <div class="categories">
+                        <!-- category info will be posted here once a player is selected -->
+                    </div>
+
+                    <div class="right container">
+                            <div class="rightPlayerInfo">
+                                <!-- player info is deposited here when user selects from dropdown -->
+                            </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
