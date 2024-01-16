@@ -42,13 +42,18 @@ MIN : {bgcolor : "rgba(0,43,92,0.5)", hrcolor : "rgb(211,17,69)", logo : `<img s
 SEA : {bgcolor : "rgba(0,92,92,0.5)", hrcolor : "rgb(12,44,86)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/SEA.svg" alt='Seattle Mariners logo' />`},
 CIN : {bgcolor : "rgba(198,1,31,0.5)", hrcolor : "rgb(0,0,0)", logo : `<img src="https://github.com/mmmccormack/fantasy-baseball/raw/gh-pages/assets/CIN.svg" alt='Cincinnati Reds logo' />`},
 }
-
-
+// function grabs current year to use in API call - future proofing!
+baseball.getYear = () => {
+    const now = new Date();
+    const apiYear = now.getFullYear();
+    return apiYear;
+}
+baseball.getYear();
 // this function calls the MLB API to retrieve all player data, and send it to formatting function
 baseball.pullfromAPI = function(){
     const apiKey = '86dbbe3a5237492f840b1b7a5b40b151'
     const masterList = $.ajax({
-        url: `https://api.sportsdata.io/v3/mlb/projections/json/PlayerSeasonProjectionStats/2021`,
+        url: `https://api.sportsdata.io/v3/mlb/projections/json/PlayerSeasonProjectionStats/${baseball.getYear()}`,
         method: 'GET',
         dataType: 'json',
         data: {
